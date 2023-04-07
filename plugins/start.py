@@ -15,7 +15,7 @@ async def start(client, message):
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
     button=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
+                                
                 ],[
                 InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
                 InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
@@ -46,7 +46,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=(script.START_TXT.format(user.mention)),
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
+                                
                 ],[
                 InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
                 InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
