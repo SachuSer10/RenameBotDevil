@@ -17,8 +17,8 @@ async def start(client, message):
     button=InlineKeyboardMarkup( [[
                                 
                 ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
-                InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
+                
+                
                 ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
                 InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help')
@@ -48,8 +48,8 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                                 
                 ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
-                InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
+                
+                
                 ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
                 InlineKeyboardButton('〄 ʜᴇʟᴘ 〄', callback_data='help')
