@@ -16,7 +16,7 @@ async def start(client, message):
         await db.add_user(user.id)             
     button=InlineKeyboardMarkup( [[
                                 
-                ],[
+             
                 
                 
                 ],[
@@ -47,7 +47,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=(script.START_TXT.format(user.mention)),
             reply_markup=InlineKeyboardMarkup( [[
                                 
-                ],[
+               
                 
                 
                 ],[
